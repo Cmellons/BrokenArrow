@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrokenArrow</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta http-equiv="Content-Security-Policy" content="style-src 'self' https://fonts.googleapis.com https://maps.googleapis.com 'nonce-yourUniqueNonceValue'">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="BrokenArrow Logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="location.html">Location</a></li>
+                <li><a href="insurance.html">Insurance</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Welcome to Broken Arrow Drug Addiction Treatment Center</h2>
+            <p>We are dedicated to helping individuals overcome addiction and reclaim their lives.</p>
+            <p>Hours of Operation:</p>
+            <ul>
+                <li>Monday: Closed</li>
+                <li>Tuesday: Closed</li>
+                <li>Wednesday: 9am - 5pm</li>
+                <li>Thursday: Closed</li>
+                <li>Friday: 9am - 5pm</li>
+                <li>Saturday: Closed</li>
+                <li>Sunday: Closed</li>
+                <li>We take Phone calls any day of the week.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Our Location</h2>
+            <p>
+                <a href="https://www.google.com/maps/place/Broken+Arrow/@36.1415739,-83.4456169,15.75z/data=!4m6!3m5!1s0x885b9f30e14fd019:0x263c376f4706d79!8m2!3d36.1419692!4d-83.4452883!16s%2Fg%2F11b8ztq6nj" target="_blank">
+                    1009e US-11E, Jefferson City, TN 37760
+                </a>
+            </p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3222.0102059359206!2d-83.44895758221467!3d36.14196476932477!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x885b9f30e14fd019%3A0x263c376f4706d79!2sBroken%20Arrow!5e0!3m2!1sen!2sus!4v1720287001507!5m2!1sen!2sus" 
+            width="600" 
+            height="450" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <section>
+            <h2>Accepted Insurances</h2>
+            <ul>
+                <li>BlueCross BlueShield -S</li>
+                <li>BlueCross BlueShield -P</li>
+                <li>United HealthCare Marketplace/Commerical</li>
+                <li>WellPoint Tenn Care</li>
+            </ul>
+            <a href="insurance.html">More Information</a>
+        </section>
+        <section>
+            <h2>Contact Us</h2>
+            <p>For inquiries, please call us at <a href="tel:+18659350411">+1 (865) 935-0411</a></p>
+            <p>Fax Number: <a href="tel:+18652620864">+1 (865) 262-0864</a></p>
+            <p>Alternate Phone Number: <a href="tel:+18652620863">+1 (865) 262-0863</a> Office Manager: Lisa Reynolds</p>
+
+            <form action="/send-email" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 BrokenArrow Drug Addiction Treatment Center. All rights reserved.</p>
+    </footer>
+</body>
+</html>

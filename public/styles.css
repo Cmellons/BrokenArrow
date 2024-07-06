@@ -1,0 +1,156 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: white;
+    height: 250px; /* Set the desired height */
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Center content vertically */
+}
+
+header img {
+    width: 100%; /* Make the image the full width of the header */
+    max-width: 600px; /* Control the maximum width of the image */
+    max-height: 200px; /* Control the maximum height of the image */
+    height: auto; /* Maintain aspect ratio */
+}
+
+header h1 {
+    margin: 0;
+    display: none; /* Hide the h1 if the logo will take its place */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main content styles */
+main {
+    padding: 2em;
+    max-width: 800px;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 60px; /* Add margin-bottom to avoid footer overlap */
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+section h2 {
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5em;
+}
+
+section p, section ul {
+    margin: 0.5em 0;
+}
+
+section ul {
+    list-style: disc;
+    padding-left: 1.5em;
+}
+
+section ul li {
+    margin-bottom: 0.5em;
+}
+
+/* Button styles */
+button {
+    display: inline-block;
+    padding: 0.5em 1em;
+    color: white;
+    background-color: #333;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Form styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 1em;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    padding: 0.5em;
+    margin-top: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form textarea {
+    resize: vertical;
+}
+
+form button {
+    margin-top: 1em;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 0.5em 0;
+    }
+
+    main {
+        padding: 1em;
+    }
+}
